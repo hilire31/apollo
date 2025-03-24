@@ -1,0 +1,8 @@
+<input type="file" (change)="onFileSelected($event)" />
+<p><strong>Texte extrait :</strong></p>
+<p>{{ uploadedText }}</p>
+
+<button (click)="onProcessText()">Traiter le texte</button>
+
+<p><strong>Texte traité :</strong></p>
+<p>{{ processedText }}</p>
